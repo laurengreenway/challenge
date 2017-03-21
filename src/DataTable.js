@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './DataTable.css';
 
 class DataTable extends Component {
@@ -12,4 +11,4 @@ class DataTable extends Component {
   }
 }
 
-export default App;
+export default DataTable;
