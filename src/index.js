@@ -24,9 +24,10 @@ const data = [
   { name: 'Bacon Burger', menuCategory: 'Burgers', salesCategory: 'Food', menuPage: 'Dinner', salesRevenue: 60, quantitySold: 6 },
 ]
 
+
 ReactDOM.render(
-  <div>
-    <h1>Sales</h1>
+  <div className="wrapper">
+    <h1>Weekly Sales Chart</h1>
     <DataTable data={data} />
   </div>,
   document.getElementById('root')
